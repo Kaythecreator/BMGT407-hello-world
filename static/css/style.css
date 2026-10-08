@@ -1,0 +1,34 @@
+p {
+    color: darkred;
+    font-size: 18px;
+}
+
+/* Styles all level 2 section headings in order to draw attention to them and create a visual hierarchy*/
+h2 {
+    color: red;
+    font-size: 20px;
+}
+
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+/* Styles the paragraph that uses the startup id to display importance */
+p#startup {
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+}
+
+/* Styles the campus involvement list using a class to display importance */
+.involvement {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+img.logo {
+    width: 267px;
+    height: 72px;
+}
