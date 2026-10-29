@@ -44,7 +44,7 @@
         </thead>
         <tbody>
         {% for each_student, each_major in students %}
-        <tr">
+        <tr>
             <td class="py-4"><a href="{{ url_for('student_view', student_id=each_student['student_id']) }}">{{ each_student['first_name'] }}</a></td>
             <td class="py-4">{{ each_student['last_name'] }}</td>
             <td class="py-4">{{ each_student['email'] }}</td>
